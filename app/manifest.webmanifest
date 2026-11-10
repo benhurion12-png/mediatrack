@@ -1,0 +1,57 @@
+{
+  "id": "/",
+  "name": "MediaTrack — контроль приёма лекарств",
+  "short_name": "MediaTrack",
+  "description": "Расписание лекарств, подтверждения приёма и связь пациента, врача и близких.",
+  "start_url": "/patient",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F5F7FB",
+  "theme_color": "#4F7DFF",
+  "orientation": "portrait-primary",
+  "categories": ["medical", "health", "productivity"],
+  "lang": "ru",
+  "icons": [
+    {
+      "src": "/icons/mediatrack-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/mediatrack-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/mediatrack-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Мои лекарства",
+      "short_name": "Лекарства",
+      "description": "Следующий приём и текущие назначения",
+      "url": "/patient",
+      "icons": [{ "src": "/icons/mediatrack-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Кабинет врача",
+      "short_name": "Врач",
+      "description": "Обзор пациентов и рисков",
+      "url": "/doctor",
+      "icons": [{ "src": "/icons/mediatrack-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Контроль близкого",
+      "short_name": "Близкий",
+      "description": "Состояние пациента и уведомления",
+      "url": "/representative",
+      "icons": [{ "src": "/icons/mediatrack-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">MediaTrack</title>
+  <desc id="desc">Две медицинские капсулы в белой рамке на зелёном фоне</desc>
+  <defs>
+    <linearGradient id="bg" x1="32" y1="18" x2="224" y2="238" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#86EA62"/>
+      <stop offset="1" stop-color="#4FD463"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#1A8C47" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="55" fill="url(#bg)" filter="url(#shadow)"/>
+  <rect x="51" y="49" width="154" height="158" fill="none" stroke="#fff" stroke-width="10"/>
+  <g fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="91" y="67" width="54" height="121" rx="27" transform="rotate(43 118 127.5)"/>
+    <path d="M91 149l39-42"/>
+    <rect x="151" y="76" width="49" height="116" rx="24.5"/>
+    <path d="M151 134h49"/>
+  </g>
+</svg>
